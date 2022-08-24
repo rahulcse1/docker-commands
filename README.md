@@ -1,2 +1,5 @@
 # docker-commands
-## List of docker commands i use
+# let's assume there is a image hello
+## docker ps        // list containes
+## docker rm        // remove containers
+## docker rmi       // remove images
