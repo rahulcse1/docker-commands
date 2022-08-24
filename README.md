@@ -29,5 +29,3 @@
 // bind multiple port 
 ## docker run -d -p 8080:80 -p 3000:80 hello
 
-// format 
-## docker ps --format="ID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE\t{{.Image}}\nPORT\t{{.Ports}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n"
