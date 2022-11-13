@@ -33,3 +33,4 @@
 
 ## docker build -t apigateway . 
 ## docker build -t apigateway -f dockerfile . 
+## docker compose up -d
