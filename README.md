@@ -30,3 +30,4 @@
 ## docker run -d -p 8080:80 -p 3000:80 hello
 
 docker run -p 27017:27017 -d mongo
+docker build -t apigateway . 
