@@ -25,6 +25,7 @@
 ## docker run -d -p 8080:80 hello
 // giving name to container
 ## docker run --name hello -d -p 8080:80 hello
+docker run --name lawyer-service -p 8080:8080 lawyer-service:0.0.1-SNAPSHOT
 
 // bind multiple port 
 ## docker run -d -p 8080:80 -p 3000:80 hello
